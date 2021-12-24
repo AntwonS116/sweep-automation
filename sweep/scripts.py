@@ -3,7 +3,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome()
 
 def login():
 
@@ -22,7 +22,7 @@ def sweep_run():
     frame = driver.find_element_by_tag_name("iframe")
     driver.switch_to.frame(frame)
         
-    for x in range(1, 10):
+    for x in range(0, 5000):
         try:
             time.sleep(1)
 
@@ -50,4 +50,4 @@ def sweep_run():
             next_shipline.click()
 
         except:
-            print("Error")
+            pass    
