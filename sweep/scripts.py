@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 
 def login():
 
-    url = "https://businesscentral.dynamics.com/?company=AMD%20Medicom%20Inc&page=7335&dc=0&bookmark=35%3bmBwAAAJ7%2f0EATQBEAC0AUwBIADAAMAAwADQAMQA0"
+    url = "https://go.microsoft.com/fwlink/?LinkId=2106760&clcid=0x409"
     driver.get(url)
 
 
