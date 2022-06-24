@@ -13,7 +13,7 @@ def login():
 
 def ship_lines():
         
-        url = "https://businesscentral.dynamics.com/?company=AMD%20Medicom%20Inc&page=7335&dc=0&bookmark=35%3bmBwAAAJ7%2f0EATQBEAC0AUwBIADAAMAAwADQAMQA0"
+        url = "https://businesscentral.dynamics.com/5b90ebbe-22b0-4c7f-8390-306ea6fc5b58/Production?company=AMD%20Medicom%20Inc&node=00002331-b003-0000-0c46-4000836bd2d2&page=7339&dc=0&bookmark=35%3bmBwAAAJ7%2f0EATQBEAC0AUwBIADAAMAAxADcAMQA0"
         driver.get(url)
 
         time.sleep(1)
