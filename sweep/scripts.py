@@ -36,7 +36,7 @@ def sweep_run():
 
             time.sleep(1)
 
-            first_verification = driver.find_element_by_xpath("//body/div/div/form[@role='dialog']/div/div/div/button[1]")
+            first_verification = driver.find_element_by_xpath("/html[1]/body[1]/div[2]/div[5]/form[1]/main[1]/div[1]/div[4]/button[1]")
             first_verification.click()
 
             time.sleep(1)
